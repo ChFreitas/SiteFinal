@@ -1,0 +1,35 @@
+
+	*{ 
+ padding: 0px;
+ margin: 0px;
+box-sizing: border-box;
+  } 
+header{ 
+ background-color: red;
+   }
+.menu{
+  display: flex; 
+flex-direction: row;
+  } 
+.logo > img {
+ margin-left: 15px;
+  width: 140px;
+ margin: 5px;
+  }
+  nav{
+ display: flex;
+  flex-direction: row;
+  align-items: center;
+  } 
+nav > div { 
+ margin-left: 20px;
+ margin-right: 20px;
+ }
+ nav > div > a {
+text-decoration: none;
+font-size: large;
+  color: #dff9fb;
+ } 
+nav > div > a:hover { 
+ color: blueviolet;
+ }
